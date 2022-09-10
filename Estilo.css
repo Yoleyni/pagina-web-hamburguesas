@@ -1,0 +1,43 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Open Sans' , sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px;
+    size: 100%;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(161, 140, 209) 0%, rgb(251, 194, 235) 100%), url(../img/th\ \(18\).jpg);
+}
+
+.header{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+
+}
+
+.img{
+    width: 45%;
+    size: 50;
+}
+
+    
